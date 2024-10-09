@@ -16,6 +16,7 @@ import { initializeApp } from "firebase/app";
  };
 
  const app = initializeApp(firebaseConfig);
+ console.log('Firebase initialized: ', app);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
